@@ -7,11 +7,11 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <body>
         <Header />
         <Main />
         <Footer />
-      </div>
+      </body>
     );
   }
 }

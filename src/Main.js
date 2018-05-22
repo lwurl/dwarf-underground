@@ -6,7 +6,7 @@ import OtherArticles from './OtherArticles';
 class Main extends Component {
     render() {
         return (
-            <main class="expanded row">
+            <main className="expanded row">
                 <Article />
                 <Ad />
                 <OtherArticles />
