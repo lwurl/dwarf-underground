@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import Header from './Header';
-import ArticleInfo from './ArticleInfo'
+import Article from './Article'
 import './App.css';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <ArticleInfo />
+        <Article />
       </div>
     );
   }
