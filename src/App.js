@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import Header from './Header';
-import Article from './Article';
-import Ad from './Ad';
+import Main from './Main';
 import './App.css';
 
 class App extends Component {
@@ -10,8 +8,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Article />
-        <Ad />
+        <Main />
       </div>
     );
   }
